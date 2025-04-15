@@ -148,7 +148,7 @@ header h1 {
 /* ======== ÍCONO DE USUARIO ======== */
 .usuario-button {
     position: absolute;
-    bottom: 615px; /* Ajusta este valor para subir o bajar el botón */
+    bottom: 560px; /* Ajusta este valor para subir o bajar el botón */
     right: 100px;
     width: 100px; /* Ajusta el tamaño si es necesario */
     height: 100px;
@@ -157,7 +157,7 @@ header h1 {
 /* ======== BOTÓN DE REGISTRO ======== */
 .register-button {
     position: absolute;
-    bottom: 200px; /* Ajusta este valor para subir o bajar el botón */
+    bottom: 150px; /* Ajusta este valor para subir o bajar el botón */
     right: 10px;
 }
 
