@@ -1,0 +1,189 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    margin: 0;
+    display: flex;
+}
+
+
+
+/* ======== SIDEBAR ======== */
+.sidebar {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    text-align: left;
+    height: 100vh;
+    border-right: 4px solid rgb(0, 0, 0);
+}
+
+/* Iconos dentro de la barra lateral */
+.sidebar-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* ======== LOGO ======== */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.logo img {
+    width: 100px; /* Ajusta el tamaño si es necesario */
+    height: 80px;
+    border-radius: 60%;
+    border: 3px solid black;
+    object-fit: cover;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ======== MENÚ DE NAVEGACIÓN ======== */
+nav ul {
+    padding-left: 0; /* Asegura que no haya padding extra */
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px 0; /* Espacio arriba y abajo */
+    font-size: 30px; /* Tamaño del texto */
+    margin-left: 2px; /* Ajusta alineación a la izquierda */
+    gap: 1px; /* Espacio entre icono y texto */
+}
+
+
+.nav-text {
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* ======== CONTENIDO PRINCIPAL ======== */
+.content {
+    flex-grow: 1;
+    background-color: #50a6b6;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+/* ======== ENCABEZADO ======== */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinea el título a la izquierda y el menú a la derecha */
+    border-bottom: 4px solid #000; /* Línea gruesa */
+}
+header h1 {
+    font-size: 35px;
+}
+
+
+
+/* ======== MENÚ SUPERIOR ======== */
+.top-menu {
+    display: flex;
+    align-items: center;
+}
+
+.top-menu button {
+    background: black;
+    color: white;
+    padding: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 15px; /* Margen simétrico para los botones */
+}
+
+.top-menu img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* ======== FORMULARIO DE CITAS ======== */
+.appointment-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 60%;
+    padding: 20px;
+    border: 3px solid #000;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+/* ======== FILAS EN FORMULARIOS ======== */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    width: 48%;
+}
+
+/* ======== ÍCONO DE USUARIO ======== */
+.usuario-button {
+    position: absolute;
+    bottom: 615px; /* Ajusta este valor para subir o bajar el botón */
+    right: 100px;
+    width: 100px; /* Ajusta el tamaño si es necesario */
+    height: 100px;
+}
+
+/* ======== BOTÓN DE REGISTRO ======== */
+.register-button {
+    position: absolute;
+    bottom: 200px; /* Ajusta este valor para subir o bajar el botón */
+    right: 10px;
+}
+
+/* ======== PIE DE PÁGINA ======== */
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* ======== CONTENEDOR DEL PIE DE PÁGINA ======== */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-container img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
